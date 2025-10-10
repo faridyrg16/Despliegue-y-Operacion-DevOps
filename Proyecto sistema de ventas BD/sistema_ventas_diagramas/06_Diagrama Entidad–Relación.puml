@@ -1,7 +1,7 @@
 @startuml diagrama_entidad_relacion
 !theme plain
 skinparam dpi 150
-
+' ===== Entidades =====
 entity Cliente {
   *idCliente: INT           -- PK
   nombre: VARCHAR
